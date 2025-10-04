@@ -1,0 +1,31 @@
+{
+  "name": "library-lab4",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack",
+    "format": "prettier --write \"src/**/*.{ts,js,json,css,html}\"",
+    "lint": "eslint \"src/**/*.{ts,js}\"",
+    "test": "mocha -r ts-node/register test/**/*.ts",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.0",
+    "@types/mocha": "^10.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "chai": "^4.3.7",
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "husky": "^9.0.0",
+    "lint-staged": "^15.0.0",
+    "mocha": "^10.0.0",
+    "prettier": "^3.0.0",
+    "ts-loader": "^9.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^4.0.0"
+  }
+}
