@@ -14,7 +14,7 @@ export class Library<T extends { id: string }> {
     this.items = this.items.filter(i => i.id !== id);
   }
 
-  find(fn: (item: T) => boolean) {
+  find(fn: (item: T)=>boolean) {
     return this.items.find(fn);
   }
 }
